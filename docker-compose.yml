@@ -200,7 +200,7 @@ services:
         - sogo-mailcow
         - php-fpm-mailcow
         - rspamd-mailcow
-      image: nginx-mailcow:sslwatch
+      image: nginx
       volumes_from:
         - sogo-mailcow
       volumes:
